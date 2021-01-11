@@ -1,3 +1,11 @@
+My first application using:
+#React.js
+#JSX
+#Javascript 
+#HTML5
+#CSS3
+Learn more about components and props and State values
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
