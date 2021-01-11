@@ -1,0 +1,83 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html,
+ body{
+    width: 100%;
+    height: 100%;
+}
+body{
+    background: #f1f1f1;
+}
+#root{
+    widows: 100%;
+    height: 100%;
+}
+/* our App Container */
+.container{
+    padding-bottom: 80px;
+}
+.header{
+    font-size: 32px;
+    font-weight: bold;
+    font-family: 'Hachi Maru Pop', cursive;
+    color: #c70039;
+    background:  #cfdac8;
+    padding: 40px;
+}
+.note{
+    color: #222;
+    padding: 40px;
+    margin: 20px;
+    background: #cfdac8;
+    border:solid 1px #e9e9e9;
+    cursor: pointer;
+    box-shadow: 0px 0px 14px 0px rgba(0, 0, 0,0.1) ;
+    -webkit-box-shadow: 0px 0px 14px 0px rgba(0, 0, 0,0.1);
+    -moz-box-shadow: 0px 0px 14px 0px rgba(0, 0, 0,0.1);
+    transition: transform .2s ease;
+}
+.note:hover{
+    transform:scale(1.02);
+}
+.btn{
+    position: fixed;
+    z-index: 1;
+    right: 40px;
+    bottom: 40px;
+    background: #c70039;
+    width: 80px;
+    height: 80px;
+    border-radius: 100%;
+    text-align: center;
+    line-height: 80px;
+    font-size: 28px;
+    font-weight: bold;
+    color: #f1f1f1;
+    cursor: pointer;
+    box-shadow: 0px 0px 11px 0px rgba(0, 0, 0,0.8) ;
+    -webkit-box-shadow: 0px 0px 11px 0px rgba(0, 0, 0,0.8);
+    -moz-box-shadow: 0px 0px 11px 0px rgba(0, 0, 0,0.8);
+    transition: transform .06s ease;
+
+}
+btn:hover{
+  transform:scale(1.2);
+
+}
+.textInput{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 80px;
+    line-height: 80px;
+    padding: 0 28px;
+    border: none;
+    outline: none;
+    background: #a9294f;
+    font-size: 16px;
+    color: #f1f1f1;
+}
